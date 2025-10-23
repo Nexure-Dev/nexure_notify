@@ -13,6 +13,7 @@
 ## Usage
 
 ## Using the Export
+```lua
 exports['nexure_notify']:ShowNotification({
     title = 'Success!',
     message = 'Action completed successfully',
@@ -20,8 +21,10 @@ exports['nexure_notify']:ShowNotification({
     duration = 5000,        -- duration in milliseconds
     sound = true            -- optional, defaults to false
 })
+```
 
 ## Using the Event (for ESX or Legacy Scripts)
+```lua
 TriggerEvent('nexure_notify:showNotification', {
     title = 'Bank',
     message = 'You deposited $5000',
@@ -29,13 +32,14 @@ TriggerEvent('nexure_notify:showNotification', {
     duration = 6000,
     sound = true
 })
+```
 
 ## Position
 
 Notifications are displayed above the minimap by default.
 
 CSS snippet:
-
+```css
 #notification-container {
     position: fixed;
     background: transparent;
@@ -63,18 +67,22 @@ CSS snippet:
     animation: slideIn 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
     transition: all 0.3s ease;
 }
+```
 
 ## Example Notifications
 
 -- Success
+```lua
 exports['nexure_notify']:ShowNotification({
     title = 'Success!',
     message = 'Action completed successfully',
     type = 'success',
     duration = 5000
 })
+```
 
 -- Bank
+```lua
 TriggerEvent('nexure_notify:showNotification', {
     title = 'Bank',
     message = 'You deposited $5000',
@@ -82,3 +90,4 @@ TriggerEvent('nexure_notify:showNotification', {
     duration = 6000,
     sound = true
 })
+```
