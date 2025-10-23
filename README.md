@@ -2,7 +2,7 @@
 
 ## A easy to use Notify Script for all FiveM Frameworks
 
-## Features
+## Feature
 
 - Clean and modern UI
 - Multiple notification types (success, warning, info, error, bank, police, EMS, mechanic, fire)
