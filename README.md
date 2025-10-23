@@ -93,4 +93,4 @@ TriggerEvent('nexure_notify:showNotification', {
 ```
 
 ## 💙 Contributors
-<a href="https://github.com/Nexure-Dev/nexure_notify/graphs/contributors" target="_blank"><img src="https://contrib.rocks/image?repo=Nexure-Dev/nexure_notify&columns=18" alt="Avatars of all contributors"></a>
+<a href="https://github.com/Nexure-Dev/nexure_notify/graphs/contributors" target="_blank"><img src="https://contrib.rocks/image?repo=Nexure-Dev/nexure_notify&columns=18" alt="contributors"></a>
